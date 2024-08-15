@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+        padding: 0;
+        /* min-height: 70vh; */
+        /* Ensure body takes up full height of viewport */
+        display: flex;
+        flex-direction: column;
+}
+
+.headerSection{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 30px;
+}
+
+.navBar li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+}
